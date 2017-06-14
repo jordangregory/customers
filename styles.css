@@ -32,7 +32,7 @@ h1 {
 }
 
 .profileName {
-  padding: 7px 0 2px 0;
+  padding: 15px 0 2px 0;
   text-transform: uppercase;
   font-weight: bold;
   border-bottom: 1px solid green;
@@ -40,11 +40,13 @@ h1 {
 }
 
 .emailAddress {
+  font-size: 15px;
   color: lightgray;
   padding: 7px 0 15px 0;
 }
 
 .streetAddress, .cityStateZip, .phoneNumber {
+  font-size: 15px;
   font-family: serif;
   color: #9B9B9B;
 }
