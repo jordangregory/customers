@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+.profile {
+  /*border: 2px solid green;*/
+  padding: 9px;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.customers {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+
+.profile {
+  flex: 1 25%;
+  margin-bottom: 3rem;
+}
+
+.profilePic {
+  width: 100%;
+  padding-top: 100%;
+}
+
+.profileName {
+  padding: 7px 0 2px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid green;
+  display: inline-block;
+}
+
+.emailAddress {
+  color: lightgray;
+  padding: 7px 0 15px 0;
+}
+
+.streetAddress, .cityStateZip, .phoneNumber {
+  font-family: serif;
+  color: #9B9B9B;
+}
